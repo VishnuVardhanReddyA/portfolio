@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    text-align: center;
+    font-size: 25px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:darkorange;
+    align-items: center;
+    min-height: 80px;
+}
+.left{
+    font-size: 40px;
+    padding-left: 20px;
+    color: white;
+}
+.right{
+    font-size: 20px;
+    padding-right: 20px;
+}
+.active{
+    font-size: 30px;
+    font-weight: 900;
+}
+.right a{
+    text-decoration: none;
+    color: white;
+    padding-right: 15px;
+}
+.name{
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+.container{
+    margin-top: 20px;
+}
+.container div{
+    padding: 20px;
+}
+.link a{
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 10px;
+    background-color:darkorchid ;
+    color: white;
+    padding: 8px;
+}
+.links a{
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 10px;
+    background-color:darkorchid ;
+    color: white;
+    padding: 8px;
+}
+.border{
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 1rem;
+    border-style: groove;
+}
+.desc{
+    padding: 30px;
+}
+.footer{
+    margin-top: 50px;
+    height: 100px;
+    background-color: orange;
+    color: white;
+}
+.heading{
+    font-size:40px;
+    padding-bottom: 6px;
+}
+.social a{
+    color:white;
+    text-decoration: none;
+    padding-right: 20px;
+}
